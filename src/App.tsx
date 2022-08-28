@@ -1,13 +1,14 @@
 import React from 'react';
-import './App.css';
+import './App.module.css';
 import Header from "./components/Header/Header";
+import s from './App.module.css'
 
 
 
 
 function App(props: any) {
   return (
-    <div >
+    <div className={s.mainPages}>
 <Header/>
 
     </div>
