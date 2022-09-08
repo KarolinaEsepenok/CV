@@ -1,0 +1,8 @@
+.greetings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #61dafb;
+    background-color: #272b33;
+    ;
+}

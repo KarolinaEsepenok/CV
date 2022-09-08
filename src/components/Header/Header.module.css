@@ -1,11 +1,16 @@
 .linksHeader{
     display: flex;
     justify-content: flex-end;
-    background-color: aqua;
+    background-color:#20232a;
+
 }
 .linksHeader a{
     margin-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-decoration: none;
+    color: #f7f7f7;
+}
+.linksHeader a:hover{
+    color:  #61dafb;
 }
