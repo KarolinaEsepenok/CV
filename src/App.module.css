@@ -1,5 +1,12 @@
 .mainPages{
-    width: auto;
-color: black;
 
+    margin: 0 auto;
+color: black;
+max-width: 1960px;
+
+}
+ .center{
+   width: 100%;
+
+     margin: 0 auto;
 }
