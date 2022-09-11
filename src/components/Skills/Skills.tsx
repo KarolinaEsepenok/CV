@@ -3,7 +3,7 @@ import Skill from "./components/skill";
 
 const Skills = () => {
     return (
-        <div>
+        <div>vc                 
             <Skill ></Skill>
         </div>
     );
