@@ -3,6 +3,7 @@ import './App.module.css';
 import Header from "./components/Header/Header";
 import s from './App.module.css'
 import Greetings from "./components/Greetings/Greetings";
+import Skills from "./components/Skills/Skills";
 
 
 function App(props: any) {
@@ -11,6 +12,7 @@ function App(props: any) {
             <div className={s.center}>
             <Header/>
             <Greetings/>
+                <Skills/>
         </div>
         </div>
     );
