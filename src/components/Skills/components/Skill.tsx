@@ -1,7 +1,8 @@
 import React from 'react';
 import s from './Skill.module.css'
+import react from '../../img/react.svg'
 export type SkillsPropsType = {
-    img: any
+
     nameSkill: string
     descriptionSkill: string
 }
@@ -9,7 +10,7 @@ export type SkillsPropsType = {
 const Skill = (props: SkillsPropsType) => {
     return (
         <div className={s.skillMain}>
-            <div>{props.img}</div>
+            <img src={react}/>
             <h4>{props.nameSkill}</h4>
             <p>{props.descriptionSkill}</p>
 
