@@ -1,12 +1,10 @@
 .myWorksPage{
-
     color: #f7f7f7;
     text-align: center;
     margin-top: 50px;
 }
-.myWorkItem{
+.myWorkItems{
     display: flex;
-
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 30px;

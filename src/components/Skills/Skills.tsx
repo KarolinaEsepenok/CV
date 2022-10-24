@@ -13,7 +13,9 @@ const Skills = () => {
             <Skill nameSkill={'React'}  descriptionSkill={'Подробное написание навыка'} />
             <Skill nameSkill={'React'} descriptionSkill={'Подробное написание навыка'}/>
             <Skill nameSkill={'React'}  descriptionSkill={'Подробное написание навыка'}/>
-
+    <Skill nameSkill={'React'}  descriptionSkill={'Подробное написание навыка'}/>
+    <Skill nameSkill={'React'}  descriptionSkill={'Подробное написание навыка'}/>
+    <Skill nameSkill={'React'}  descriptionSkill={'Подробное написание навыка'}/>
         </div></div>
 
 

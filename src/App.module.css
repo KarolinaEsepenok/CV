@@ -1,10 +1,11 @@
-.mainPages{
+.mainPages {
     margin: 0 auto;
-color: black;
-max-width: 1960px;
-background-color: #272b33;
+    color: black;
+    max-width: 1960px;
+    background-color: #272b33;
 }
- .center{
-   width: 100%;
-     margin: 0 auto;
+
+.center {
+    width: 100%;
+   
 }
