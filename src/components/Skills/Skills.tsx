@@ -10,7 +10,8 @@ const Skills = () => {
         <div className={s.skillsPage}>
             <h3>My skills</h3>
 <div className={s.skills}>
-            <Skill nameSkill={'React'}  descriptionSkill={'Подробное написание навыка'} />
+            <Skill nameSkill={'React'}  descriptionSkill={'Подробное написание навыкаПодробное написание навыкаПодробное написание навыка' +
+                'Подробное написание навыкаПодробное написание навыка' } />
             <Skill nameSkill={'React'} descriptionSkill={'Подробное написание навыка'}/>
             <Skill nameSkill={'React'}  descriptionSkill={'Подробное написание навыка'}/>
     <Skill nameSkill={'React'}  descriptionSkill={'Подробное написание навыка'}/>

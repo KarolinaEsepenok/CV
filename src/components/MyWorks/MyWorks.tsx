@@ -1,4 +1,5 @@
 import React from 'react';
+import ava from '../img/ava.jpg'
 
 import s from './MyWorks.module.css'
 
@@ -8,14 +9,14 @@ const MyWorks = () => {
             <h3>My Works</h3>
             <div className={s.myWorkItems}>
                 <div className={s.myWorkItemImg}>
-                    <img/>
-                    <a> <button>Смотреть</button></a>
+                    <img  src={ava}/>
+                    <a href={''}> Смотреть</a>
                     <p>Название проекта</p>
                     <p>Краткое Описание</p>
             </div>
                 <div className={s.myWorkItemImg}>
                     <img/>
-                    <a> <button>Смотреть</button></a>
+                    <a href={''}> Смотреть</a>
                     <p>Название проекта</p>
                     <p>Краткое Описание</p>
                 </div>
