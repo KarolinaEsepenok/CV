@@ -19,9 +19,12 @@
     height: 400px;
     align-self: center;
     object-fit: cover;
+    border-radius: 5px;
 }
 @media screen and (max-width: 600px){
     .greetings h2{
         font-size: 15px;
+        width: 100%;
+        text-align: center;
     }
 }
