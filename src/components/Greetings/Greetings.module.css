@@ -12,11 +12,16 @@
 .greetings h2{
     width: 40%;
     align-self: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 .greetings img{
     width: 300px;
     height: 400px;
     align-self: center;
     object-fit: cover;
+}
+@media screen and (max-width: 600px){
+    .greetings h2{
+        font-size: 15px;
+    }
 }

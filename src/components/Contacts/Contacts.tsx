@@ -10,7 +10,7 @@ const Contacts = () => {
                <textarea></textarea>
 
            </form>
-            <button>Отправитьь</button>
+            <button>Отправить</button>
         </div>
     );
 };

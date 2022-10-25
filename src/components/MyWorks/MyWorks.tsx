@@ -8,18 +8,17 @@ const MyWorks = () => {
         <div className={s.myWorksPage}>
             <h3>My Works</h3>
             <div className={s.myWorkItems}>
-                <div className={s.myWorkItemImg}>
-                    <img  src={ava}/>
-                    <a href={''}> Смотреть</a>
+                <div className={s.myWorkItem}>
+                   <div className={s.myWorkItemImgButton}><a href={''}> Смотреть</a></div>
                     <p>Название проекта</p>
                     <p>Краткое Описание</p>
             </div>
-                <div className={s.myWorkItemImg}>
-                    <img/>
-                    <a href={''}> Смотреть</a>
+                <div className={s.myWorkItem}>
+                    <div className={s.myWorkItemImgButton}><a href={''}> Смотреть</a></div>
                     <p>Название проекта</p>
                     <p>Краткое Описание</p>
                 </div>
+
             </div>
         </div>
     );
