@@ -10,7 +10,7 @@ import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
 
 
-function App(props: any) {
+function App() {
     return (
         <div className={s.mainPages}>
             <div className={s.center}>
