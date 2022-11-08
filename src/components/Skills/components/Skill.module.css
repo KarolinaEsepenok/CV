@@ -5,15 +5,16 @@
    min-height: 200px;
     width: 340px;
     margin-bottom: 50px;
-    padding: 20px;
-    box-shadow:5px 5px 5px 5px #20232a;
-transition: 0.5s;
+    padding: 35px 20px;
     border-radius: 7px;
+    transition: 0.5s;
+    box-shadow:5px 5px 5px 5px #20232a;
+
 }
 .skillMain:hover
 {
     transform: scale(1.1);
-
+    background: linear-gradient(to right bottom, #212428, #16181c);
 }
 img{
     width: 50px;
