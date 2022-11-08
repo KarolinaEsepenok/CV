@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 .linksHeader{
     display: flex;
     justify-content: flex-end;
     background-color:#20232a;
+
+
 }
 .linksHeader a{
     margin-right: 20px;

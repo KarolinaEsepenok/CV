@@ -2,11 +2,17 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
+   min-height: 200px;
     width: 340px;
-    height: 100%;
     margin-bottom: 50px;
-
+    padding: 20px;
+    box-shadow:5px 5px 5px 5px #20232a;
+transition: 0.5s;
+    border-radius: 7px;
+}
+.skillMain:hover
+{
+    transform: scale(1.1);
 
 }
 img{
@@ -15,5 +21,6 @@ img{
     align-self: center;
 }
 .descriptionSkill{
+
 
 }
