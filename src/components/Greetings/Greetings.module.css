@@ -20,6 +20,7 @@
     align-self: center;
     object-fit: cover;
     border-radius: 5px;
+    box-shadow: 10px 10px;
 }
 @media screen and (max-width: 600px){
     .greetings h2{

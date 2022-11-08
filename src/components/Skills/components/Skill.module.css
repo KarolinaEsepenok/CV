@@ -13,8 +13,8 @@
 }
 .skillMain:hover
 {
-    transform: scale(1.1);
-    background: linear-gradient(to right bottom, #212428, #16181c);
+    transform: scale(1.05);
+    background: linear-gradient(to right bottom, #212428, #20232a);
 }
 img{
     width: 50px;

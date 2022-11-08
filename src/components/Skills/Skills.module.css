@@ -5,13 +5,15 @@
     text-align: center;
     margin-top: 50px;
 }
+.skillPageName{
+    font-size: 30px;
+}
+
 .skills{
     color: #f7f7f7;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 30px;
-
-
 }
 
