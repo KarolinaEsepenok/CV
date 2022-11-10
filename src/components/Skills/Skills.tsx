@@ -20,39 +20,39 @@ const Skills = () => {
             <h3 className={s.skillPageName}>My skills</h3>
 <div className={s.skills}>
     <div className={s.skillMain}>
-        <img src={logoReact}/>
+        <img src={logoReact} alt={'React'} title={'React'}/>
         <h4>React</h4>
-        <div className={s.descriptionSkill}>описание навыка</div>
+
     </div>
     <div className={s.skillMain}>
-        <img src={ts}/>
+        <img src={ts} alt={'TypeScript'} title={'TypeScript'}/>
         <h4>TypeScript</h4>
-        <div className={s.descriptionSkill}>описание навыка</div>
+
     </div>
     <div className={s.skillMain}>
-        <img src={html}/>
+        <img src={html} alt={'HTML'} title={'HTML'} />
         <h4>HTML</h4>
-        <div className={s.descriptionSkill}>описание навыка</div>
+
     </div>
     <div className={s.skillMain}>
-        <img src={css}/>
+        <img src={css}  alt={'CSS'} title={'CSS'}/>
         <h4>CSS</h4>
-        <div className={s.descriptionSkill}>описание навыка</div>
+
     </div>
     <div className={s.skillMain}>
-        <img src={storyBook}/>
+        <img src={storyBook}  alt={'storyBook'} title={'storyBook'}/>
         <h4>Storybook</h4>
-        <div className={s.descriptionSkill}>описание навыка</div>
+
     </div>
     <div className={s.skillMain}>
-        <img src={js}/>
+        <img src={js}  alt={'JavaScript'} title={'JavaScript'}/>
         <h4>JavaScript</h4>
-        <div className={s.descriptionSkill}>описание навыка</div>
+
     </div>
     <div className={s.skillMain}>
-        <img src={reduxLogo}/>
+        <img src={reduxLogo}  alt={'Redux'} title={'Redux'}/>
         <h4>Redux-Toolkit</h4>
-        <div className={s.descriptionSkill}>описание навыка</div>
+
     </div>
 
 </div></div>
