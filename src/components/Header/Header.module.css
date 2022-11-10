@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
 .linksHeader{
     display: flex;
     justify-content: flex-end;
@@ -10,7 +10,15 @@
     padding-bottom: 20px;
     text-decoration: none;
     color: #3A5F56;
+    font-size: 16px;
+    line-height: 100%;
+    padding-right: 60px;
+
 }
 .linksHeader a:hover{
-    color:  #61dafb;
+    color:#292C32;
 }
+@media screen and (max-width: 600px) {
+    .linksHeader a{
+        padding-right: 10px;
+    }}

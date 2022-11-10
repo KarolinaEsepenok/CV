@@ -1,12 +1,12 @@
 import React from 'react';
-import avatar from '../img/avatar.jpg'
+import avatar from '../img/avatar3.jpg'
 import s from './Greetings.module.css'
 import 'animate.css'
 
 const Greetings = () => {
     return (
         <div className={s.greetings}>
-          <h2 className={'animate__lightSpeedInRight'}>Привет!<br/> Меня зовут Каролина.<br/> Я front-end разработчик</h2>
+          <h2 className={'animate__lightSpeedInRight'}>Hi!<br/>I'm Karolina.<br/>I'm a Front-end developer</h2>
  <img src={avatar} alt={'Avatar'} title={'Karolina Esepenok'}/>
         </div>
 

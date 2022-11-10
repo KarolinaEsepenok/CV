@@ -1,19 +1,55 @@
 .skillsPage {
     display: flex;
     flex-direction: column;
-    color: #f7f7f7;
     text-align: center;
     margin-top: 50px;
 }
+.skillPageImgLine{
+    width: 160px;
+    height: 19px;
+    left: calc(50% - 160px/2);
+
+}
 .skillPageName{
-    font-size: 30px;
+    font-size: 32px;
+    line-height: 105%;
+    color: #3A5F56;
 }
 
 .skills{
-    color: #f7f7f7;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 30px;
 }
+.skillMain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 200px;
+    width: 340px;
+    margin-bottom: 50px;
+    padding: 30px 30px;
+    border-radius: 16px;
+    transition: 0.5s;
+    background-color: #F4F3F0;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.03);
+    color:#3A5F56;
+    font-size: 24px;
+    line-height: 105%;
+}
+.skillMain:hover{
+    transform: scale(1.05);
+}
+img{
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+.descriptionSkill{
+    font-size: 16px;
+    color: #292C32;
+
+}
+
 

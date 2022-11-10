@@ -1,15 +1,20 @@
-.greetings{
+.greetings {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     color: #61dafb;
-background-color: #F4F3F0;
     height: 100%;
-
-    padding: 30px;
+    padding: 50px 70px;
+    background: url('./../img/dr.png') no-repeat top -20px right -20px/468px 402px,
+    #F4F3F0 url('./../img/gr2.png') no-repeat left -20px bottom -20px/501px 371px;
 }
-.greetings h2{
+    /*background-image: radial-gradient(50% 50% at 50% 50%, rgba(58, 95, 86, 0.55) 0%, rgba(58, 95, 86, 0) 100%);}*/
+{/*  background-image: radial-gradient(50% 50% at 50% 50%, rgba(184, 125, 88, 0.8) 0%, rgba(184, 125, 88, 0) 100%);*/}
+
+
+
+.greetings h2 {
     width: 40%;
     align-self: center;
     font-size: 48px;
@@ -18,32 +23,38 @@ background-color: #F4F3F0;
     font-weight: 400;
     line-height: 105%;
 }
-.greetings img{
+
+.greetings img {
     width: 452px;
     height: 673px;
     align-self: center;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 24px;
+    filter: drop-shadow(0px 3px 15px rgba(0,0,0,0.1));
 }
-@media screen and (max-width: 850px){
-    .greetings h2{
+
+@media screen and (max-width: 900px) {
+    .greetings h2 {
         font-size: 28px;
         width: 100%;
         text-align: center;
     }
-    .greetings img{
+
+    .greetings img {
         margin: 0 auto;
         width: 70%;
         height: 70%;
     }
 }
-@media screen and (max-width: 600px){
-    .greetings h2{
+
+@media screen and (max-width: 600px) {
+    .greetings h2 {
         font-size: 20px;
         width: 100%;
         text-align: center;
     }
-    .greetings img{
+
+    .greetings img {
         margin: 0 auto;
 
     }
