@@ -1,10 +1,10 @@
 .greetings{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     color: #61dafb;
-
+background-color: #F4F3F0;
     height: 100%;
 
     padding: 30px;
@@ -13,19 +13,36 @@
     width: 40%;
     align-self: center;
     font-size: 25px;
+    color: #3A5F56;
 }
 .greetings img{
-    width: 300px;
-    height: 400px;
+    width: 452px;
+    height: 673px;
     align-self: center;
     object-fit: cover;
     border-radius: 5px;
     box-shadow: 10px 10px;
+}
+@media screen and (max-width: 850px){
+    .greetings h2{
+
+        width: 100%;
+        text-align: center;
+    }
+    .greetings img{
+        margin: 0 auto;
+        width: 70%;
+        height: 70%;
+    }
 }
 @media screen and (max-width: 600px){
     .greetings h2{
         font-size: 15px;
         width: 100%;
         text-align: center;
+    }
+    .greetings img{
+        margin: 0 auto;
+
     }
 }

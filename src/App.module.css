@@ -1,15 +1,13 @@
 
 
 .mainPages {
-    margin: 0 auto;
+    margin: 0 ;
+    padding: 0;
     color: black;
-    max-width: 1960px;
-
 
 }
-
 .center {
-    width: 100%;
-    background-color: #272b33;
+    max-width:1960px;
+    margin:0 auto;
 
 }
