@@ -12,8 +12,11 @@ background-color: #F4F3F0;
 .greetings h2{
     width: 40%;
     align-self: center;
-    font-size: 25px;
+    font-size: 48px;
     color: #3A5F56;
+    font-family: 'Source Serif Pro';
+    font-weight: 400;
+    line-height: 105%;
 }
 .greetings img{
     width: 452px;
@@ -21,11 +24,10 @@ background-color: #F4F3F0;
     align-self: center;
     object-fit: cover;
     border-radius: 5px;
-    box-shadow: 10px 10px;
 }
 @media screen and (max-width: 850px){
     .greetings h2{
-
+        font-size: 28px;
         width: 100%;
         text-align: center;
     }
@@ -37,7 +39,7 @@ background-color: #F4F3F0;
 }
 @media screen and (max-width: 600px){
     .greetings h2{
-        font-size: 15px;
+        font-size: 20px;
         width: 100%;
         text-align: center;
     }
