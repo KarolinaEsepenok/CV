@@ -1,0 +1,43 @@
+.myWorkItem {
+    width: 340px;
+    height: 100%;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.myWorkItemImg{
+    background-color: #f7f7f7;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-image: url('') ;
+    background-size: cover;
+    background-position: bottom;
+    top: calc(50% - 252px/2 - 93px);
+}
+.myWorkBtn{
+    text-decoration: none;
+    height: 25px;
+    display: inline-block;
+    width: 70px;
+    background-color: #3a5f56;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.myWorkBtn:hover{
+    background-color: #272b33;
+}
+.myWorkName{
+    color: #3a5f56;
+    font-size: 24px;
+    line-height: 110%;
+    padding-top: 15px;
+}
+.description p{
+    font-size: 16px;
+    line-height: 103%;
+    padding-bottom: 15px;
+}
