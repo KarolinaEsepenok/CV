@@ -5,12 +5,12 @@ const Contacts = () => {
     return (
         <div className={s.contact}><h3>Контакты</h3>
            <form className={s.formMain}>
-               <input/>
-               <input/>
+               <input type={'text'}/>
+               <input type={'text'}/>
                <textarea></textarea>
 
            </form>
-            <button>Отправить</button>
+            <button type={'submit'} className={s.submitBtn}>Send</button>
         </div>
     );
 };
