@@ -34,7 +34,18 @@
     border-radius: 5px;
 }
 
-.myWorkItemImgButton,
+.myWorkItemImgButton{
+    background-color: #f7f7f7;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-image: url('./../img/soc.jpg') ;
+    background-size: cover;
+    background-position: bottom;
+    top: calc(50% - 252px/2 - 93px);
+}
 .myWorkTwoItemImgButton{
     background-color: #f7f7f7;
     height: 200px;
@@ -42,13 +53,24 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background: url('./../img/social.jpg') no-repeat;
+    background-image: url('./../img/tdlist.jpg');
+   background-position: top right;
+
     top: calc(50% - 252px/2 - 93px);
-
-
+}
+.myWorkThreeItemImgButton{
+    background-color: #f7f7f7;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-image: url('./../img/todo.jpg');
+    background-size: cover;
+    top: calc(50% - 252px/2 - 93px);
 }
 
-.myWorkItemImgButton a,.myWorkTwoItemImgButton a {
+.myWorkItemImgButton a,.myWorkTwoItemImgButton a,.myWorkThreeItemImgButton a {
     text-decoration: none;
     height: 25px;
     display: inline-block;
@@ -69,7 +91,6 @@
 .myWorkDescr{
     background: #FFFFFF;
     margin-top: -57px;
-
     border-radius: 5px;
 }
 .myWorkName{
