@@ -3,6 +3,7 @@
     background: url('./../img/gr3.png') no-repeat bottom -20px right -20px/303px 303px,
     #F4F3F0 ;
     text-align: center;
+
 }
 .skillPageImgLine{
     width: 160px;
@@ -14,6 +15,7 @@
     font-size: 32px;
     line-height: 105%;
     color: #3A5F56;
+    font-weight: 400;
 }
 .myWorkItems{
     display: flex;
@@ -31,10 +33,3 @@
     border-radius: 5px;
 }
 
-
-
-.myWorkDescr{
-    background: #FFFFFF;
-    margin-top: -57px;
-    border-radius: 5px;
-}

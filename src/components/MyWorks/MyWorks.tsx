@@ -15,17 +15,8 @@ const MyWorks = () => {
         <MyWork title={'Social network'} description={'vdsbsvdhgskhdgjshgdjh'}/>
         <MyWork title={'Social network'} description={'vdsbsvdhgskhdgjshgdjh'}/>
         <MyWork title={'Social network'} description={'vdsbsvdhgskhdgjshgdjh'}/>
-                <div className={s.myWorkItem}>
-                    <div className={s.myWorkTwoItemImgButton}><a href={''}> Смотреть</a></div>
-                    <div className={s.myWorkDescr}><h6 className={s.myWorkName}>Название проекта</h6>
-                        <p>Краткое Описание</p></div>
-                </div>
-                <div className={s.myWorkItem}>
 
-                    <div className={s.myWorkThreeItemImgButton}><a href={''}> Смотреть</a></div>
-                    <div className={s.myWorkDescr}><h6 className={s.myWorkName}>Название проекта</h6>
-                        <p>Краткое Описание</p></div>
-                </div>
+
 
             </div>
         </div>

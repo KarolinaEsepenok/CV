@@ -11,8 +11,9 @@ const MyWork = (props:MyWorkPropsTYpe) => {
 
             <div className={s.myWorkItem}>
                 <div className={s.myWorkItemImg}><a className={s.myWorkBtn} href={''}> Смотреть</a></div>
-                <h6 className={s.myWorkName}>Название проекта</h6>
-                    <span className={s.description}>Краткое Описание</span>
+                <div className={s.myWorkNameDesrc}>
+                <h6 className={s.myWorkName}>{props.title}</h6>
+                    <span className={s.description}>{props.description}</span></div>
 
         </div>
     );

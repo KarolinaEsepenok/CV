@@ -3,6 +3,8 @@
     flex-direction: column;
     text-align: center;
     margin-top: 50px;
+
+
 }
 .skillPageImgLine{
     width: 160px;
@@ -14,6 +16,9 @@
     font-size: 32px;
     line-height: 105%;
     color: #3A5F56;
+    font-weight: 400;
+
+
 }
 
 .skills{
@@ -21,6 +26,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 30px;
+
 }
 .skillMain{
     display: flex;
@@ -36,9 +42,13 @@
     color:#3A5F56;
     font-size: 24px;
     line-height: 105%;
+
 }
 .skillMain:hover{
     transform: scale(1.1);
+}
+.skillMain h4{
+    font-weight: 400;
 }
 img{
     width: 50px;

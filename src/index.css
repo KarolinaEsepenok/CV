@@ -9,14 +9,13 @@
   }*/}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','DM Sans',"Kolker Brush",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Source Serif Pro',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','DM Sans','Roboto',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','DM Sans','Roboto','Source Serif Pro',
     monospace;
 }

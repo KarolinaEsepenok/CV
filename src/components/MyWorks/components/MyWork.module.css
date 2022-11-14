@@ -3,6 +3,7 @@
     height: 100%;
     margin-bottom: 50px;
     border-radius: 5px;
+
 }
 .myWorkItemImg{
     background-color: #f7f7f7;
@@ -30,14 +31,21 @@
 .myWorkBtn:hover{
     background-color: #272b33;
 }
+.myWorkNameDesrc{
+background-color: #FFFFFF;
+    margin-top: -56px;
+    padding-bottom: 15px;
+}
 .myWorkName{
     color: #3a5f56;
     font-size: 24px;
     line-height: 110%;
     padding-top: 15px;
+    font-weight: 400;
 }
 .description p{
     font-size: 16px;
     line-height: 103%;
     padding-bottom: 15px;
+    font-family:' Roboto';
 }
