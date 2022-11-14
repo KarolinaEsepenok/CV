@@ -2,18 +2,21 @@ import React from 'react';
 import s from "./MyWork.module.css";
 
 
-export type MyWorkPropsTYpe={
-  title:string
-  description: string
+export type MyWorkPropsTYpe = {
+    title: string
+    description: string
+    style:{
+        backgroundImg:string
+    }
 }
-const MyWork = (props:MyWorkPropsTYpe) => {
+const MyWork = (props: MyWorkPropsTYpe) => {
     return (
-
-            <div className={s.myWorkItem}>
-                <div className={s.myWorkItemImg}><a className={s.myWorkBtn} href={''}> Смотреть</a></div>
-                <div className={s.myWorkNameDesrc}>
+        <div className={s.myWorkItem}>
+            <div style={{backgroundImage: props.style.backgroundImg}} className={s.myWorkItemImg}><a className={s.myWorkBtn} href={''}> Смотреть</a>
+            </div>
+            <div className={s.myWorkNameDesrc}>
                 <h6 className={s.myWorkName}>{props.title}</h6>
-                    <span className={s.description}>{props.description}</span></div>
+                <span className={s.description}>{props.description}</span></div>
 
         </div>
     );

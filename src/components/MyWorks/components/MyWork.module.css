@@ -12,7 +12,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background-image: url('') ;
     background-size: cover;
     background-position: bottom;
     top: calc(50% - 252px/2 - 93px);
@@ -43,9 +42,10 @@ background-color: #FFFFFF;
     padding-top: 15px;
     font-weight: 400;
 }
-.description p{
+.description{
     font-size: 16px;
     line-height: 103%;
     padding-bottom: 15px;
     font-family:' Roboto';
+    color: #3a5f56;
 }
