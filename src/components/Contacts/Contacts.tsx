@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Contacts.module.css'
+import s from './Contacts.module.scss'
 
 const Contacts = () => {
     return (
@@ -7,7 +7,9 @@ const Contacts = () => {
            <form className={s.formMain}>
                <input type={'text'}/>
                <input type={'text'}/>
-               <textarea></textarea>
+               <textarea>
+
+               </textarea>
 
            </form>
             <button type={'submit'} className={s.submitBtn}>Send</button>

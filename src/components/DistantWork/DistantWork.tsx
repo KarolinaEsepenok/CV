@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './DistantWork.module.css'
+import s from './DistantWork.module.scss'
 
 const DistantWork = () => {
     return (

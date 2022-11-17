@@ -10,7 +10,7 @@ import css from '../img/css.svg'
 import storyBook from '../img/storyBook.svg'
 import js from '../img/js.svg'
 import reduxLogo from '../img/redux.svg'
-import Title from "../common/Title";
+import Title from "../common/components/title/Title";
 
 const Skills = () => {
     return (

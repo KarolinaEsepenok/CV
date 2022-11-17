@@ -1,3 +1,4 @@
+
 .myWorkItem {
     width: 340px;
     height: 100%;
@@ -18,7 +19,7 @@
         &::before {
             position: absolute;
             content: '';
-            background-color: #3a5f56;
+            background-color:#3a5f56;
             opacity: 0.5;
             top: 0;
             bottom: 0;

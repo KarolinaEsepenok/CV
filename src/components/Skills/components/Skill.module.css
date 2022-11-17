@@ -1,3 +1,4 @@
+
 .skillMain{
     display: flex;
     flex-direction: column;
@@ -9,7 +10,7 @@
     transition: 0.5s;
     background-color: #F4F3F0;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.03);
-    color:#3A5F56;
+    color:#3a5f56;
     font-size: 24px;
     line-height: 105%;
 
@@ -19,8 +20,12 @@
 }
 .skillMain h4{
     font-weight: 400;
+
 }
 img{
-
     align-self: center;
+}
+.descriptionSkill{
+    color: #272b33;
+    font-size: 18px;
 }

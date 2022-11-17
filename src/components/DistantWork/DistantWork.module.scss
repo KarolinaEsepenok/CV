@@ -1,0 +1,17 @@
+@import "../common/styles/sass/variables";
+.distanceWork{
+    color: $textColor;
+    font-weight: $textWeight;
+    font-size: 32px;
+    font-family: 'Source Serif Pro';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3{
+    text-align: center;
+}
+    button{
+      width: 100px;
+
+  }
+}

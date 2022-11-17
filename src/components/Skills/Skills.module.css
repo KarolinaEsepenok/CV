@@ -6,7 +6,9 @@
     color: #3a5f56;
     font-size: 32px;
     font-weight: 400;
+    font-family: "Source Serif Pro";
 }
+
 .skills{
     display: flex;
     justify-content: space-around;
