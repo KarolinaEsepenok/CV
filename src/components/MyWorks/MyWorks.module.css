@@ -3,7 +3,6 @@
     background: url('./../img/gr3.png') no-repeat bottom -20px right -20px/303px 303px,
     #F4F3F0 ;
     text-align: center;
-
 }
 .skillPageImgLine{
     width: 160px;
@@ -23,8 +22,6 @@
     flex-wrap: wrap;
     padding: 30px;
     margin-top: 50px;
-
-
 }
 .myWorkItem {
     width: 340px;
