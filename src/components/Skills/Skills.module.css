@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     text-align: center;
- padding-top: 50px;
+     padding-top: 50px;
     color: #3a5f56;
     font-size: 32px;
     font-weight: 400;
     font-family: "Source Serif Pro";
+    background: url('./../img/bgSkills.png') no-repeat bottom -20px left -20px/328px 346px, #f7f7f7;
 }
 
 .skills{
