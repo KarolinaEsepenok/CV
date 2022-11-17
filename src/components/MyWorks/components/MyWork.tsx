@@ -1,7 +1,5 @@
 import React from 'react';
-import s from "./MyWork.module.css";
-
-
+import s from "./MyWork.module.scss";
 export type MyWorkPropsTYpe = {
     title: string
     description: string

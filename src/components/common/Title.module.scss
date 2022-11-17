@@ -1,0 +1,11 @@
+.pageImgLine {
+  left: calc(50% - 160px / 2);
+  font-size: 32px;
+  line-height: 105%;
+  color: #3A5F56;
+  font-weight: 400;
+  .imageLine {
+    width: 160px;
+    height: 19px;
+  }
+}

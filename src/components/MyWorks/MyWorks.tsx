@@ -1,10 +1,11 @@
 import React from 'react';
 import ava from '../img/ava.jpg'
 import MyWork from './components/MyWork';
-import s from './MyWorks.module.css';
+import s from './MyWorks.module.scss';
 import line from '../img/line.png';
 import todoImage from '../img/tdlist.jpg'
 import socialImage from '../img/soc.jpg'
+import Title from "../common/Title";
 const MyWorks = () => {
     const social={
         backgroundImg: `url(${socialImage})`
@@ -14,8 +15,7 @@ const MyWorks = () => {
     }
     return (
         <div className={s.myWorksPage}>
-         <div>  <img className={s.skillPageImgLine} src={line}/>
-            <h3 className={s.myWorkPageName}>My Works</h3></div>
+        <Title title={'My Works'}/>
     <div className={s.myWorkItems}>
         <MyWork style={todolist} title={'Todolist'} description={'vdsbsvdhgskhdgjshgdjh'}/>
                 <MyWork style={social} title={'Social network'} description={'vdsbsvdhgskhdgjshgdjh'}/>

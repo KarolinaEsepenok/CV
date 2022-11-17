@@ -10,7 +10,7 @@ export type SkillsPropsType = {
 const Skill = (props: SkillsPropsType) => {
     return (
         <div className={s.skillMain}>
-            <div>{props.img}</div>
+            <img src={props.img}/>
             <h4>{props.nameSkill}</h4>
             <div className={s.descriptionSkill}>{props.descriptionSkill}</div>
 

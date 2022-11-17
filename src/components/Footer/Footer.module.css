@@ -5,6 +5,10 @@
     align-items: center;
 margin-top: 50px;
 }
-.footerSocial a{
+.footerSocial a {
     margin-right: 15px;
+}
+.footerSocial a img{
+    width: 50px;
+    height: 50px;
 }

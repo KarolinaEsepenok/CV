@@ -1,0 +1,64 @@
+.myWorkItem {
+    width: 340px;
+    height: 100%;
+    margin-bottom: 50px;
+    border-radius: 5px;
+
+    .myWorkItemImg{
+        background-color: #f7f7f7;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        background-size: cover;
+        background-position: bottom;
+        top: calc(50% - 252px/2 - 93px);
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            background-color: #3a5f56;
+            opacity: 0.5;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        .myWorkBtn{
+            font-size: 16px;
+            text-decoration: none;
+            background-color: #3a5f56;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            position: relative;
+            z-index: 1;
+            &:hover{
+                background-color: #272b33;
+            }
+        }
+    }
+    .myWorkNameDesrc{
+         background-color: #FFFFFF;
+         margin-top: -56px;
+         padding-bottom: 15px;
+        .myWorkName{
+            color: #3a5f56;
+            font-size: 24px;
+            line-height: 110%;
+            padding-top: 15px;
+            font-weight: 400;
+        }
+        .description{
+            font-size: 16px;
+            line-height: 103%;
+            padding-bottom: 15px;
+            font-family:' Roboto';
+            color: #3a5f56;
+        }
+     }
+}
+
+
+

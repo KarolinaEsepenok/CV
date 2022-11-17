@@ -1,0 +1,26 @@
+
+.myWorksPage {
+  background: url('./../img/gr3.png') no-repeat bottom -20px right -20px/303px 303px,
+  #F4F3F0;
+  text-align: center;
+  color: #3a5f56;
+  padding-top: 50px;
+  font-size: 32px;
+  font-weight: 400;
+  .myWorkItems {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .myWorkItem {
+      width: 340px;
+      height: 100%;
+      margin-bottom: 50px;
+      border-radius: 5px;
+    }
+  }
+}
+
+
+
+
