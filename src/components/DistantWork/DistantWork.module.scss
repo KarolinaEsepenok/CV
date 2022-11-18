@@ -4,7 +4,7 @@
     background: url('./../img/bgContact.png') no-repeat bottom -20px left -20px/755px 300px;
     display: flex;
     justify-content: center;
-  padding: 30px;
+  padding:0px 30px;
   @media screen and (max-width: 600px) {
     height: 250px;
 
@@ -26,6 +26,7 @@
       @media screen and (max-width: 900px) {
         width: 90%;
         font-size: 24px;
+        padding: 5px;
       }
       @media screen and (max-width: 600px) {
         width: 90%;
