@@ -5,7 +5,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   color: $textColor;
   font-size: 32px;
   background: url('./../img/dr.png') no-repeat bottom  right -300px/468px 402px;
@@ -17,12 +16,16 @@
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    @media screen and (max-width: 600px) {
+      margin-top: 0px;
+    }
     & input{
       height: 33px;
     }
     & input, & textarea {
       width: 100%;
       margin-bottom: 10px;
+
     }
   }
   .submitBtn {
@@ -36,7 +39,7 @@
     }
     @include button (#F4F3F0, $textColor, 5px);
     @media screen and (max-width: 400px) {
-      font-size: 10px;
+      padding: 5px 10px;
     }
   }
 }

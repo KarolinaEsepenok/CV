@@ -5,7 +5,7 @@ const DistantWork = () => {
     return (
         <div className={s.distanceWork}>
             <div className={s.distanceWorkInfo}>
-            <p>I'm looking at remote work options</p>
+            <p className={s.distanceWorkMessage}>I'm looking at remote work options</p>
             <button >Hire me</button></div>
         </div>
     );
