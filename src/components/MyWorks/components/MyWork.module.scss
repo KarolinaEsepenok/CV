@@ -36,6 +36,7 @@
             position: relative;
             z-index: 1;
             font-family: Roboto;
+            transition: 0.7s;
             &:hover{
                 background-color: #272b33;
             }

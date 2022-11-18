@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Footer.module.css'
+import s from './Footer.module.scss'
 import viber from '../img/viber.svg'
 import telegram from '../img/tele.svg'
 import instagram from '../img/ins.svg'
@@ -8,7 +8,7 @@ import linked from '../img/link.svg'
 const Footer = () => {
     return (
         <div className={s.footer}>
-            <h3>Karolina Esepenok</h3>
+            <p>Karolina Esepenok</p>
             <div className={s.footerSocial}>
               <a href={'viber://add?number=375297190383'}><img src={viber}/></a>
                <a href={'https://t.me/karolinaesepenok'}> <img src={telegram}/></a>

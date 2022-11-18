@@ -1,12 +1,14 @@
 @import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
 
 .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+
   color: $textColor;
   font-size: 32px;
+  background: url('./../img/dr.png') no-repeat bottom  right -300px/468px 402px;
 
   .formMain {
     width: 50%;
@@ -15,21 +17,27 @@
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    & input{
+      height: 33px;
+    }
     & input, & textarea {
       width: 100%;
       margin-bottom: 10px;
     }
   }
   .submitBtn {
-    background-color: $textColor;
     padding: 10px 20px;
-    border-radius: 5px;
     font-size: 16px;
-    color: #F4F3F0;
     border: none;
     font-family: Roboto;
-    font-size: 20px;
-
+    transition: 0.7s;
+    &:hover {
+      background-color: #272b33;
+    }
+    @include button (#F4F3F0, $textColor, 5px);
+    @media screen and (max-width: 400px) {
+      font-size: 10px;
+    }
   }
 }
 

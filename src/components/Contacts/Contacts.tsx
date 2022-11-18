@@ -3,7 +3,7 @@ import s from './Contacts.module.scss'
 
 const Contacts = () => {
     return (
-        <div className={s.contact}><p>Контакты</p>
+        <div className={s.contact}><p>Contacts</p>
            <form className={s.formMain}>
                <input type={'text'}/>
                <input type={'text'}/>

@@ -1,0 +1,20 @@
+.footer {
+    color: #FFFFFF;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #292C32;
+    &a {
+        margin-right: 15px;
+
+    }
+    & img{
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+}
+

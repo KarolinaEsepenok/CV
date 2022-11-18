@@ -5,3 +5,11 @@
   color: $textColor;
   line-height: $lineHeight;
 }
+@mixin button($colorBtnText, $colorBtn,$borderRadiusBtn){
+  color:$colorBtnText ;
+  background-color:$colorBtn;
+  border-radius: $borderRadiusBtn;
+
+;
+
+}
