@@ -1,17 +1,60 @@
 @import "../common/styles/sass/variables";
 .distanceWork{
-    color: $textColor;
-    font-weight: $textWeight;
-    font-size: 32px;
-    font-family: 'Source Serif Pro';
+    height: 400px;
+    background: url('./../img/bgContact.png') no-repeat bottom -20px left -20px/755px 300px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    h3{
-    text-align: center;
-}
-    button{
-      width: 100px;
+    justify-content: center;
+  padding: 30px;
+  @media screen and (max-width: 600px) {
+    height: 250px;
 
   }
+;
+    .distanceWorkInfo{
+        color: $textColor;
+        font-weight: $textWeight;
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+       justify-content: center;
+        height: 50%;
+      width: 50%;
+        align-self: center;
+      background-color: #F4F3F0;
+      color: #272b33;
+      border-radius: 16px;
+      @media screen and (max-width: 900px) {
+        width: 90%;
+        font-size: 24px;
+      }
+      @media screen and (max-width: 600px) {
+        width: 90%;
+        font-size: 16px;
+      }
+
+
+        button{
+            background-color: $textColor;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #F4F3F0;
+            border: none;
+            width: 125px;
+            font-family: Roboto;
+            margin-left: 20px;
+          &:hover{
+            background-color: #272b33;
+          }
+          @media screen and (max-width: 600px) {
+            font-size: 12px;
+            width: 80px;
+          }
+
+
+        }
+    }
+
+
+
 }

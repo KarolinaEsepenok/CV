@@ -4,8 +4,9 @@ import s from './DistantWork.module.scss'
 const DistantWork = () => {
     return (
         <div className={s.distanceWork}>
-            <h3>Рассматриваю варианты удаленной работы</h3>
-            <button >Нанять меня</button>
+            <div className={s.distanceWorkInfo}>
+            <p>I'm looking at remote work options</p>
+            <button >Hire me</button></div>
         </div>
     );
 };

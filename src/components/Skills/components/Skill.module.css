@@ -2,8 +2,8 @@
 .skillMain{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    width: 340px;
+    text-align: start;
+    width: 200px;
     margin-bottom: 50px;
     padding: 30px 30px;
     border-radius: 16px;
@@ -13,6 +13,7 @@
     color:#3a5f56;
     font-size: 24px;
     line-height: 105%;
+    margin-right: 5px;
 
 }
 .skillMain:hover{
@@ -21,11 +22,13 @@
 .skillMain h4{
     font-weight: 400;
 
+
 }
 img{
-    align-self: center;
+    align-self: start;
 }
 .descriptionSkill{
     color: #272b33;
     font-size: 18px;
+
 }

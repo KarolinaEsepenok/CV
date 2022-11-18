@@ -11,7 +11,7 @@ const Title = (props:TitlePropsType) => {
     return (
         <div className={s.pageImgLine}>
             <img className={s.imageLine} src={line}/>
-            <h3 >{props.title}</h3>
+            <p >{props.title}</p>
         </div>
     );
 };

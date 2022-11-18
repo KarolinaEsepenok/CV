@@ -1,13 +1,16 @@
-.footer{
-    color:#3a5f56;
+.footer {
+    color: #3a5f56;
     display: flex;
     flex-direction: column;
     align-items: center;
-margin-top: 50px;
+    margin-top: 50px;
+    background-color: #292C32;
 }
 .footerSocial a {
     margin-right: 15px;
 }
+
+
 .footerSocial a img{
     width: 50px;
     height: 50px;
