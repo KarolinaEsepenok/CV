@@ -17,14 +17,17 @@ const Skills = () => {
         <div className={s.skillsPage}>
            <Title title={'My skills'}/>
             <div className={s.skills}>
-                <Skill nameSkill={'React'} descriptionSkill={'r'} img={logoReact}/>
-                <Skill nameSkill={'TypeScript'} descriptionSkill={'r'} img={ts}/>
-                <Skill nameSkill={'HTML'} descriptionSkill={'r'} img={html}/>
-                <Skill nameSkill={'CSS'} descriptionSkill={'r'} img={css}/>
+                <Skill nameSkill={'React'} descriptionSkill={'Strong React knowledge, both on hook and class-based.'} img={logoReact}/>
+                <Skill nameSkill={'TypeScript'} descriptionSkill={'Strong Typescript knowledge.'} img={ts}/>
+                <Skill nameSkill={'HTML'} descriptionSkill={'HTML5, DOM, Semantic HTML.'} img={html}/>
+                <Skill nameSkill={'CSS'} descriptionSkill={'CSS3. Responsive design. CSS-modules.'} img={css}/>
+                <Skill nameSkill={'SASS/SCSS'} descriptionSkill={'Experience in CSS preprocessor like SASS, SCSS.'} img={css}/>
                 <Skill nameSkill={'storyBook'} descriptionSkill={'r'} img={storyBook}/>
-                <Skill nameSkill={'JavaScript'} descriptionSkill={'r'} img={js}/>
-                <Skill nameSkill={'Redux'} descriptionSkill={'r'} img={reduxLogo}/>
-
+                <Skill nameSkill={'JavaScript'} descriptionSkill={'ES6. Solid knowledge of JavaScript. JavaScript ecosystem tools (webpack, npm, yarn).'} img={js}/>
+                <Skill nameSkill={'Redux'} descriptionSkill={'Experience in Redux and Redux Thunk.'} img={reduxLogo}/>
+                <Skill nameSkill={'Rest API'} descriptionSkill={'Experience in working with RESTful services. Axios.'} img={css}/>
+<Skill nameSkill={'Material UI'} descriptionSkill={'Knowledge of UI libraries (Material-UI, Storybook).'} img={css}/>
+                <Skill nameSkill={'Heroku'} descriptionSkill={'Experience in servless (Heroku).'} img={css}/>
             </div>
         </div>
 

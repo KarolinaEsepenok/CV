@@ -16,7 +16,12 @@
         margin-right: 10px;
         background-color: #F7F7F7;
         border-radius: 20px;
+        transition: 0.7s;
+        &:hover{
+            background-color: #3a5f56;
+        }
     }
+
 
 }
 
