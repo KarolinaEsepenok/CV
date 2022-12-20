@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Skill.module.css'
-import react from '../../img/react.svg'
+import react from '../../assets/img/react.svg'
 export type SkillsPropsType = {
     nameSkill: string
     descriptionSkill: string

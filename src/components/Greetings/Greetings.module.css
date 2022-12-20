@@ -6,8 +6,8 @@
     color: #61dafb;
     height: 100%;
     padding: 50px 70px;
-    background: url('./../img/dr.png') no-repeat top -20px right -20px/468px 402px,
-    #F4F3F0 url('./../img/gr2.png') no-repeat left -20px bottom -20px/501px 371px;
+    background: url('../assets/img/dr.png') no-repeat top -20px right -20px/468px 402px,
+    #F4F3F0 url('../assets/img/gr2.png') no-repeat left -20px bottom -20px/501px 371px;
 }
     /*background-image: radial-gradient(50% 50% at 50% 50%, rgba(58, 95, 86, 0.55) 0%, rgba(58, 95, 86, 0) 100%);}*/
 {/*  background-image: radial-gradient(50% 50% at 50% 50%, rgba(184, 125, 88, 0.8) 0%, rgba(184, 125, 88, 0) 100%);*/}

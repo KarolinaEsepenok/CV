@@ -1,15 +1,15 @@
 import React from 'react';
 import Skill from "./components/Skill";
-import react from '../img/react.jpg'
+import react from '../assets/img/react.jpg'
 import s from './Skills.module.css'
-import line from '../img/line.png'
-import ts from '../img/ts.svg'
-import logoReact from '../img/react.svg'
-import html from '../img/html.svg'
-import css from '../img/css.svg'
-import storyBook from '../img/storyBook.svg'
-import js from '../img/js.svg'
-import reduxLogo from '../img/redux.svg'
+import line from '../assets/img/line.png'
+import ts from '../assets/img/ts.svg'
+import logoReact from '../assets/img/react.svg'
+import html from '../assets/img/html.svg'
+import css from '../assets/img/css.svg'
+import storyBook from '../assets/img/storyBook.svg'
+import js from '../assets/img/js.svg'
+import reduxLogo from '../assets/img/redux.svg'
 import Title from "../common/components/title/Title";
 
 const Skills = () => {

@@ -1,10 +1,10 @@
 import React from 'react';
-import ava from '../img/ava.jpg'
+import ava from '../assets/img/ava.jpg'
 import MyWork from './components/MyWork';
 import s from './MyWorks.module.scss';
-import line from '../img/line.png';
-import todoImage from '../img/tdlist.jpg'
-import socialImage from '../img/soc.jpg'
+import line from '../assets/img/line.png';
+import todoImage from '../assets/img/tdlist.jpg'
+import socialImage from '../assets/img/soc.jpg'
 import Title from "../common/components/title/Title";
 const MyWorks = () => {
     const social={

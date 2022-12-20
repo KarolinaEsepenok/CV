@@ -1,6 +1,6 @@
 import React from 'react';
 import s from "../../../MyWorks/MyWorks.module.scss";
-import line from "../../../img/line.png";
+import line from "../../../assets/img/line.png";
 
 export type TitlePropsType={
     title:string

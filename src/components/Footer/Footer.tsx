@@ -1,9 +1,10 @@
 import React from 'react';
 import s from './Footer.module.scss'
-import viber from '../img/viber.svg'
-import telegram from '../img/tele.svg'
-import instagram from '../img/ins.svg'
-import linked from '../img/link.svg'
+import viber from '../assets/img/viber.svg'
+import telegram from '../assets/img/tele.svg'
+import instagram from '../assets/img/ins.svg'
+import linked from '../assets/img/link.svg'
+import Title from "../common/components/title/Title";
 
 const Footer = () => {
     return (

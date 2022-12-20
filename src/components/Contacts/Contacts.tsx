@@ -5,14 +5,12 @@ const Contacts = () => {
     return (
         <div className={s.contact}><p>Contacts</p>
            <form className={s.formMain}>
-               <input type={'text'}/>
-               <input type={'text'}/>
-               <textarea>
-
-               </textarea>
-
+               <input type={'text'} className={s.formArea} placeholder={'Name'}/>
+               <input type={'text'}className={s.formArea} placeholder={'E-mail'}/>
+               <textarea  className={s.messageArea} placeholder={'Message'} />
+               <button type={'submit'} className={s.submitBtn}>Send</button>
            </form>
-            <button type={'submit'} className={s.submitBtn}>Send</button>
+
         </div>
     );
 };

@@ -7,7 +7,8 @@
   align-items: center;
   color: $textColor;
   font-size: 32px;
-  background: url('./../img/dr.png') no-repeat bottom  right -300px/468px 402px;
+  background: url('../assets/img/dr.png') no-repeat bottom  right -300px/468px 402px;
+
 
   .formMain {
     width: 50%;
@@ -16,16 +17,32 @@
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
+
     @media screen and (max-width: 600px) {
       margin-top: 0px;
+      width: 90%;
     }
-    & input{
+
+    .formArea,
+    .messageArea
+    {
+      font-size: 14px;
+      border-radius: 5px;
+      border: 1px solid #272b33;
+      background-color: #F4F3F0;
       height: 33px;
-    }
-    & input, & textarea {
       width: 100%;
       margin-bottom: 10px;
+      padding-left: 5px;
 
+        &:focus{
+          border: 1px solid #292C32;
+        }
+    }
+    .messageArea{
+      height: 150px;
+      font-family: "Roboto";
+      padding-top: 8px;
     }
   }
   .submitBtn {
@@ -45,3 +62,8 @@
   }
 }
 
+/* &:-webkit-autofill{
+        border: 1px solid #292C32;
+        -webkit-text-fill-color: #292C32;
+        -webkit-box-shadow: 0 0 0 100px #292C32 inset;
+        transition: background-color 5000s ease-in-out 0s;*/
