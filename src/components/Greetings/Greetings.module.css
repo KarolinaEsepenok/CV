@@ -1,10 +1,11 @@
+
 .greetings {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     position: relative;
-    color: #61dafb;
+    color: #3a5f56;
     height: 100%;
     padding: 50px 70px;
     background: url('../assets/img/dr.png') no-repeat top -20px right -20px/468px 402px,
@@ -25,9 +26,6 @@
 }
 
 
-.particles #tsparticles canvas {
-    position: absolute !important;
-}
 
 .greetings h2 {
     width: 70%;
@@ -37,6 +35,13 @@
     color: #3A5F56;
     font-weight: 400;
     line-height: 105%;
+}
+.greetings .descrAboutMe{
+    width: 60%;
+    font-size: 20px;
+    margin-top: 120px;
+    color: #292C32;
+    font-family: Roboto;
 }
 
 .greetings img {
@@ -59,11 +64,15 @@
 @media screen and (max-width: 1000px) {
     .greetings{
         justify-content: center;
+        flex-wrap: wrap;
     }
     .greetings h2 {
         font-size: 28px;
         width: 100%;
         text-align: center;
+    }
+    .greetings .descrAboutMe{
+        display: none;
     }
     .greetings img {
         margin: 0 auto;

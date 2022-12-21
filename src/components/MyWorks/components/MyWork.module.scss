@@ -35,7 +35,7 @@
             border-radius: 5px;
             position: relative;
             z-index: 1;
-            font-family: Roboto;
+font-family: Roboto;
             transition: 0.7s;
             &:hover{
                 background-color: #272b33;
@@ -59,15 +59,16 @@
             font-weight: 400;
         }
         .description{
+            font-family:' Roboto';
             font-size: 18px;
             line-height: 103%;
             padding-bottom: 15px;
-            font-family:' Roboto';
-            color: #3a5f56;
+
             display: inline-block;
             padding-right: 10px;
             text-align: justify;
             margin-top: -30px;
+            color: #292C32;
         }
      }
 }
