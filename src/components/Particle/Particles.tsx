@@ -15,11 +15,13 @@ export const ParticlesContainer = () => {
     }, []);
 
     return (
-        <div>
             <Particles
                 id="tsparticles"
                 init={particlesInit}
                 loaded={particlesLoaded}
+                style={{
+                    position: 'absolute'
+                }}
                 options={{
 
                     fpsLimit: 120,
@@ -89,8 +91,6 @@ export const ParticlesContainer = () => {
                     detectRetina: true,
                 }}
             />
-            );
-        </div>
     );
 };
 

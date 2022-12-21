@@ -3,21 +3,38 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: relative;
     color: #61dafb;
     height: 100%;
     padding: 50px 70px;
     background: url('../assets/img/dr.png') no-repeat top -20px right -20px/468px 402px,
     #F4F3F0 url('../assets/img/gr2.png') no-repeat left -20px bottom -20px/501px 371px;
 }
+.greetingsAnimate{
+    align-self: center;
+}
     /*background-image: radial-gradient(50% 50% at 50% 50%, rgba(58, 95, 86, 0.55) 0%, rgba(58, 95, 86, 0) 100%);}*/
 {/*  background-image: radial-gradient(50% 50% at 50% 50%, rgba(184, 125, 88, 0.8) 0%, rgba(184, 125, 88, 0) 100%);*/}
+.particles{
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+}
+
+
+.particles #tsparticles canvas {
+    position: absolute !important;
+}
 
 .greetings h2 {
-    width: 40%;
+    width: 70%;
+    display: inline-block;
     align-self: center;
     font-size: 48px;
     color: #3A5F56;
-
     font-weight: 400;
     line-height: 105%;
 }
@@ -31,13 +48,23 @@
     filter: drop-shadow(0px 3px 15px rgba(0,0,0,0.1));
 }
 
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width: 1150px){
+    .greetingsAnimate h2{
+        width: 61%;
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .greetings{
+        justify-content: center;
+    }
     .greetings h2 {
         font-size: 28px;
         width: 100%;
         text-align: center;
     }
-
     .greetings img {
         margin: 0 auto;
         width: 95%;
