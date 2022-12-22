@@ -1,12 +1,12 @@
 import React from 'react';
 import s from './Contacts.module.scss'
 
-import {AttentionSeeker} from "react-awesome-reveal";
+import Fade, {AttentionSeeker} from "react-awesome-reveal";
 
 const Contacts = () => {
     return (
-        <AttentionSeeker effect={'pulse'}>
-        <div className={s.contact}><p>Contacts</p>
+        <AttentionSeeker effect={'pulse'} cascade>
+        <div id={'contacts'} className={s.contact}><p>Contacts</p>
 
            <form className={s.formMain}>
                <input type={'text'} className={s.formArea} placeholder={'Name'}/>

@@ -4,6 +4,7 @@ import s from './Greetings.module.css'
 import 'animate.css'
 import {ParticlesContainer} from "../Particle/Particles";
 import Fade, {AttentionSeeker, Bounce, Zoom} from "react-awesome-reveal";
+import Tilt from 'react-parallax-tilt';
 import ReactTypingEffect from "react-typing-effect";
 import Typewriter from "react-ts-typewriter";
 
@@ -23,7 +24,7 @@ const Greetings = () => {
                     I'm improving my skills in React development and expanding them with new technologies. In free time. I solve Codewars tasks and improve my English (currently A2).
                 </p></Bounce></AttentionSeeker>
    </div>
-          <img src={avatar} alt={'Avatar'} title={'Karolina Esepenok'}/>
+         <Tilt scale={1} transitionSpeed={9000}> <img src={avatar} alt={'Avatar'} title={'Karolina Esepenok'}/></Tilt>
         </div>
     )
 };

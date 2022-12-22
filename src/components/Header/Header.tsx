@@ -5,9 +5,9 @@ const Header = () => {
     return (
         <div className={s.linksHeader}>
             <a href={''}>Main</a>
-            <a href={'../Skills/Skills.tsx'}>Skills</a>
-            <a href={'../MyWorks/MyWorks.tsx'}>Works</a>
-            <a href={'../Contacts/Contacts.tsx'}>Contacts</a>
+            <a href={'#skills'}>Skills</a>
+            <a href={'#myWorks'}>Works</a>
+            <a href={'#contacts'}>Contacts</a>
         </div>
     );
 };

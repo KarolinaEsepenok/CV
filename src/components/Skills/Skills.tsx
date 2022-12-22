@@ -14,7 +14,7 @@ import Title from "../common/components/title/Title";
 
 const Skills = () => {
     return (
-        <div className={s.skillsPage}>
+        <div id='skills' className={s.skillsPage}>
            <Title title={'My skills'}/>
             <div className={s.skills}>
                 <Skill nameSkill={'React'} descriptionSkill={'Strong React knowledge, both on hook and class-based.'} img={logoReact}/>
