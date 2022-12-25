@@ -3,7 +3,12 @@
     display: flex;
     justify-content: flex-end;
    margin: 0 auto;
+    position: fixed;
+    z-index: 1000;
     font-family: Roboto;
+    background-color: #FFF;
+    height: 60px;
+    width: 100%;
 
 
 }
@@ -18,14 +23,17 @@
     padding-right: 60px;
 
 }
+.linksHeader a .active{
+    color: #272b33;
+}
 .linksHeader a:hover{
     color:#292C32;
 }
 @media screen and (max-width: 600px) {
-    .linksHeader a{
+    .linksHeader .links{
         padding-right: 5px;
     }}
 @media screen and (max-width: 400px) {
-    .linksHeader a{
+    .linksHeader .links{
        font-size: 14px;
     }}

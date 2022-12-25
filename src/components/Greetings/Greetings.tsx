@@ -14,7 +14,7 @@ import Typewriter from "react-ts-typewriter";
 const Greetings = () => {
 
     return (
-        <div className={s.greetings}>
+        <div id={'main'} className={s.greetings}>
             <div className={s.particles}><ParticlesContainer /></div>
             <div className={s.nameDescrAboutMe}>
             <AttentionSeeker  effect={'swing'}><Fade className={s.greetingsAnimate}>
