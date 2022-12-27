@@ -6,7 +6,7 @@ import Fade, {AttentionSeeker} from "react-awesome-reveal";
 const Contacts = () => {
     return (
         <AttentionSeeker effect={'pulse'} cascade>
-        <div id={'contacts'} className={s.contact}><p>Contacts</p>
+        <div  className={s.contact}><p>Contacts</p>
 
            <form className={s.formMain}>
                <input type={'text'} className={s.formArea} placeholder={'Name'}/>

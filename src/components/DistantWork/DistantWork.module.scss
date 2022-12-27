@@ -2,7 +2,7 @@
 @import "../common/styles/sass/mixins";
 
 .distanceWork {
-  height: 300px;
+  height: 290px;
   background: url('../assets/img/bgContact.png') no-repeat bottom -20px left -20px/755px 300px;
   display: flex;
   justify-content: center;
@@ -11,7 +11,6 @@
   @media screen and (max-width: 600px) {
     height: 250px;
     padding: 0px 10px;
-
   };
 
   .distanceWorkInfo {

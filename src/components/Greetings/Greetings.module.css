@@ -51,6 +51,10 @@
     object-fit: cover;
     border-radius: 24px;
     filter: drop-shadow(0px 3px 15px rgba(0,0,0,0.1));
+    transition: 1s;
+}
+.greetings img:hover{
+    transform: scale(1.03);
 }
 
 
@@ -84,12 +88,13 @@
 
 @media screen and (max-width: 600px) {
     .greetings{
-        padding: 20px 30px;
+        padding: 45px 30px;
     }
     .greetings h2 {
         font-size: 20px;
         width: 100%;
         text-align: center;
+        padding-top: 10px;
     }
 
     .greetings img {

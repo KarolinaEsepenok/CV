@@ -1,39 +1,36 @@
-
 .linksHeader{
-    display: flex;
-    justify-content: flex-end;
-   margin: 0 auto;
-    position: fixed;
-    z-index: 1000;
-    font-family: Roboto;
-    background-color: #FFF;
-    height: 60px;
-    width: 100%;
-
-
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 1000;
+  font-family: Roboto;
+  background-color: #FFF;
+  height: 60px;
+  width: 100%;
 }
 .linksHeader a{
-    margin-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-decoration: none;
-    color: #3A5F56;
-    font-size: 16px;
-    line-height: 100%;
-    padding-right: 60px;
-
-}
-.linksHeader a .active{
-    color: #272b33;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: #3A5F56;
+  font-size: 16px;
+  line-height: 100%;
+  padding-right: 60px;
+  cursor: pointer;
 }
 .linksHeader a:hover{
-    color:#292C32;
+  color:#292C32;
 }
+.linksHeader a:active{
+   color: #000;
+ }
 @media screen and (max-width: 600px) {
-    .linksHeader .links{
-        padding-right: 5px;
-    }}
+  .linksHeader a{
+    padding-right: 0px;
+  }}
 @media screen and (max-width: 400px) {
-    .linksHeader .links{
-       font-size: 14px;
-    }}
+  .linksHeader a{
+    font-size: 14px;
+  }}
