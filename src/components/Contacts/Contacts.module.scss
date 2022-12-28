@@ -8,8 +8,12 @@
   color: $textColor;
   font-size: 32px;
   position: relative;
-  background: url('../assets/img/dr.png') no-repeat bottom  right -300px/468px 402px;
+  background: url('../assets/img/dr.png') no-repeat top  right -200px/468px 402px;
+  @media screen and (max-width: 450px) {
+    font-size: 24px;
 
+
+  }
 
 
   .formMain {

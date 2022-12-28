@@ -10,6 +10,10 @@ import css from '../assets/img/css.svg'
 import storyBook from '../assets/img/storyBook.svg'
 import js from '../assets/img/js.svg'
 import reduxLogo from '../assets/img/redux.svg'
+import sass from '../assets/img/sass.svg'
+import restAPI from '../assets/img/restAPI.svg'
+import materialUi from '../assets/img/materiaUi.svg'
+import heroku from '../assets/img/heroku.svg'
 import Title from "../common/components/title/Title";
 
 const Skills = () => {
@@ -21,13 +25,13 @@ const Skills = () => {
                 <Skill nameSkill={'TypeScript'} descriptionSkill={'Strong Typescript knowledge.'} img={ts}/>
                 <Skill nameSkill={'HTML'} descriptionSkill={'HTML5, DOM, Semantic HTML.'} img={html}/>
                 <Skill nameSkill={'CSS'} descriptionSkill={'CSS3. Responsive design. CSS-modules.'} img={css}/>
-                <Skill nameSkill={'SASS/SCSS'} descriptionSkill={'Experience in CSS preprocessor like SASS, SCSS.'} img={css}/>
+                <Skill nameSkill={'SASS/SCSS'} descriptionSkill={'Experience in CSS preprocessor like SASS, SCSS.'} img={sass}/>
                 <Skill nameSkill={'storyBook'} descriptionSkill={'r'} img={storyBook}/>
                 <Skill nameSkill={'JavaScript'} descriptionSkill={'ES6. Solid knowledge of JavaScript. JavaScript ecosystem tools (webpack, npm, yarn).'} img={js}/>
                 <Skill nameSkill={'Redux'} descriptionSkill={'Experience in Redux and Redux Thunk.'} img={reduxLogo}/>
-                <Skill nameSkill={'Rest API'} descriptionSkill={'Experience in working with RESTful services. Axios.'} img={css}/>
-<Skill nameSkill={'Material UI'} descriptionSkill={'Knowledge of UI libraries (Material-UI, Storybook).'} img={css}/>
-                <Skill nameSkill={'Heroku'} descriptionSkill={'Experience in servless (Heroku).'} img={css}/>
+                <Skill nameSkill={'Rest API'} descriptionSkill={'Experience in working with RESTful services. Axios.'} img={restAPI}/>
+<Skill nameSkill={'Material UI'} descriptionSkill={'Knowledge of UI libraries (Material-UI, Storybook).'} img={materialUi}/>
+                <Skill nameSkill={'Heroku'} descriptionSkill={'Experience in servless (Heroku).'} img={heroku}/>
             </div>
         </div>
 

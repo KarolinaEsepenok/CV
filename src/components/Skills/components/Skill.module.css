@@ -21,15 +21,37 @@
 }
 .skillMain h4{
     font-weight: 400;
-
-
 }
-img{
+.imgSkill{
     align-self: start;
+    height: 50px;
+    width: 50px;
 }
-.descriptionSkill{
+.skillMain{
     color: #272b33;
     font-size: 16px;
     font-family: Roboto;
+
+}
+@media screen and (max-width: 1000px) {
+    .skillMain{
+        padding: 15px 15px;
+        margin-bottom: 20px;
+        width: 150px;
+        font-size: 20px;
+    }
+    .skillMain{
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    .skillMain{
+        padding: 10px 10px;
+    }
+    .imgSkill{
+        width: 40px;
+        height: 40px;
+    }
 
 }

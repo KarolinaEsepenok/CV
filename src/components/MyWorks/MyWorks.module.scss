@@ -8,6 +8,11 @@
   font-size: 32px;
   font-weight: 400;
   padding:50px 30px;
+  @media screen and (max-width: 450px) {
+    font-size: 24px;
+
+
+  }
 
   .myWorkItems {
     display: flex;
