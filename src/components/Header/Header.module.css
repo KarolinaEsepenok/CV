@@ -23,7 +23,7 @@
 .linksHeader a:hover{
   color:#292C32;
 }
-.linksHeader a:active{
+.linksHeader a.active{
    color: #000;
  }
 @media screen and (max-width: 600px) {
