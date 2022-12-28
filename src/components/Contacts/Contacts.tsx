@@ -5,7 +5,7 @@ import Fade, {AttentionSeeker} from "react-awesome-reveal";
 
 const Contacts = () => {
     return (
-        <AttentionSeeker effect={'pulse'} cascade>
+
         <div  className={s.contact}><p>Contacts</p>
 
            <form className={s.formMain}>
@@ -15,7 +15,7 @@ const Contacts = () => {
                <button type={'submit'} className={s.submitBtn}>Send</button>
            </form>
 
-        </div></AttentionSeeker>
+        </div>
     );
 };
 

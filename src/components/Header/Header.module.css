@@ -33,4 +33,5 @@
 @media screen and (max-width: 400px) {
   .linksHeader a{
     font-size: 14px;
+    margin-right: 35px;
   }}

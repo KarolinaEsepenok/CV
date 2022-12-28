@@ -17,9 +17,10 @@
     padding: 0px  30px;
 
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
     .skillsPage{
         font-size: 24px;
+        padding-top: 30px;
     }
 
 

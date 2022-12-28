@@ -7,6 +7,9 @@
     margin-top: 50px;
     background-color: #292C32;
     font-family: "Source Serif Pro";
+    @media screen and (max-width: 600px) {
+        margin-top: 0px;
+    }
     &a {
         margin-right: 15px;
 

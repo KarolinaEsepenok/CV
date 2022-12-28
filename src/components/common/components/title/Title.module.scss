@@ -5,15 +5,20 @@
   color: #3A5F56;
   font-weight: 400;
   font-family: "Source Serif Pro";
+  width: 160px;
+  align-self: center;
+  @media screen and (max-width: 450px) {
+    font-size: 24px;
+  }
   .imageLine {
     width: 160px;
     height: 19px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .pageImgLine {
-    font-size: 24px;
-  }
+    @media screen and (max-width: 450px) {
+      width: 100px;
+      height: 11px;
+      margin: -5px -5px;
 
+    }
 
+  }
 }

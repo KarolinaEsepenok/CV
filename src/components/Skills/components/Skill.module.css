@@ -45,6 +45,13 @@
     }
 
 }
+@media screen and (max-width: 600px) {
+    .skillMain h4{
+        margin: 10px 10px;
+    }
+
+
+}
 @media screen and (max-width: 450px) {
     .skillMain{
         padding: 10px 10px;
@@ -53,5 +60,12 @@
         width: 40px;
         height: 40px;
     }
+
+}
+@media screen and (max-width: 430px) {
+    .skillMain{
+        width: 95%;
+    }
+
 
 }
