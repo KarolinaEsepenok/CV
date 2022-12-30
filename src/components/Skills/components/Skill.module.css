@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     text-align: start;
-    width: 200px;
+    width: 150px;
     margin-bottom: 50px;
     padding: 30px 30px;
     border-radius: 16px;
@@ -21,9 +21,10 @@
 }
 .skillMain h4{
     font-weight: 400;
+    text-align: center;
 }
 .imgSkill{
-    align-self: start;
+    align-self: center;
     height: 50px;
     width: 50px;
 }
@@ -47,13 +48,14 @@
 }
 @media screen and (max-width: 600px) {
     .skillMain h4{
-        margin: 10px 10px;
+
     }
 
 
 }
 @media screen and (max-width: 450px) {
     .skillMain{
+        width: 110px;
         padding: 10px 10px;
     }
     .imgSkill{
@@ -64,7 +66,7 @@
 }
 @media screen and (max-width: 430px) {
     .skillMain{
-        width: 95%;
+        width: 110px;
     }
 
 
