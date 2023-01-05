@@ -16,7 +16,7 @@ const Footer = () => {
                 <a href={'http://instagram.com/karolinochka_smile'}><img src={instagram}/></a>
                 <a href={'https://www.linkedin.com/in/%D0%BA%D0%B0%D1%80%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0-%D0%B5%D1%81%D0%B5%D0%BF%D1%91%D0%BD%D0%BE%D0%BA-a74084236/'}><img src={linked}/></a>
             </div>
-            <p>&#xa9; 2022, Все права защищены</p>
+            <p>&#xa9; 2022, All rights reserved</p>
         </div>
     );
 };

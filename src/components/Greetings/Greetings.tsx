@@ -21,7 +21,7 @@ const Greetings = () => {
                 <h2 className={'animate__lightSpeedInRight'}>Hi!<br/>I'm Karolina.<br/> I'm a Front-end developer.<br/></h2>
             </Fade></AttentionSeeker>
                 <AttentionSeeker effect={'headShake'}><Bounce><p className={s.descrAboutMe}>I'm proactive, responsible and highly-motivated front-end developer with a strong analytical mind.
-                    I'm improving my skills in React development and expanding them with new technologies. In free time. I solve Codewars tasks and improve my English (currently A2).
+                    I'm improving my skills in React development and expanding them with new technologies. In free timeБ I solve Codewars tasks and improve my English (currently A2).
                 </p></Bounce></AttentionSeeker>
    </div>
           <img src={avatar} alt={'Avatar'} title={'Karolina Esepenok'}/>
