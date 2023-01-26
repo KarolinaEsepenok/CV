@@ -1,76 +1,81 @@
 
 .myWorkItem {
-    width: 340px;
-    height: 100%;
-    margin-bottom: 50px;
+  width: 340px;
+  height: 100%;
+  margin-bottom: 50px;
+  border-radius: 5px;
+
+  .myWorkItemImg {
+    background-color: #F4F3F0;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 5px;
+    background-size: cover;
+    background-position: bottom;
+    top: calc(50% - 252px / 2 - 93px);
+    position: relative;
 
-    .myWorkItemImg{
-        background-color: #F4F3F0;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 5px;
-        background-size: cover;
-        background-position: bottom;
-        top: calc(50% - 252px/2 - 93px);
-        position: relative;
-        &::before {
-            position: absolute;
-            content: '';
-            background-color:#3a5f56;
-            opacity: 0.5;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-        }
-        .myWorkBtn{
-            font-size: 16px;
-            text-decoration: none;
-            background-color: #3a5f56;
-            color: #FFFFFF;
-            padding: 10px 20px;
-            border-radius: 5px;
-            position: relative;
-            z-index: 1;
-font-family: Roboto;
-            transition: 0.7s;
-            &:hover{
-                background-color: #272b33;
-            }
-        }
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: #3a5f56;
+      opacity: 0.5;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
     }
-    .myWorkNameDesrc{
-         background-color: #FFFFFF;
-         margin-top: -56px;
-         padding-bottom: 15px;
-        padding-right: 30px;
-        text-align: start;
-        padding-left: 30px;
-        min-height: 250px;
 
-        .myWorkName{
-            color: #3a5f56;
-            font-size: 24px;
-            line-height: 110%;
-            padding-top: 15px;
-            font-weight: 400;
-        }
-        .description{
-            font-family:' Roboto';
-            font-size: 18px;
-            line-height: 103%;
-            padding-bottom: 15px;
+    .myWorkBtn {
+      font-size: 16px;
+        width: 88px;
+      text-decoration: none;
+      background-color: #3a5f56;
+      color: #FFFFFF;
+      padding: 10px 20px;
+      border-radius: 5px;
+      position: relative;
+      z-index: 1;
+      font-family: Roboto;
+      transition: 0.7s;
 
-            display: inline-block;
-            padding-right: 10px;
-            text-align: justify;
-            margin-top: -30px;
-            color: #292C32;
-        }
-     }
+      &:hover {
+        background-color: #272b33;
+      }
+    }
+  }
+
+  .myWorkNameDesrc {
+    background-color: #FFFFFF;
+    margin-top: -56px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    text-align: start;
+    padding-left: 30px;
+    min-height: 250px;
+
+    .myWorkName {
+      color: #3a5f56;
+      font-size: 24px;
+      line-height: 110%;
+      padding-top: 15px;
+      font-weight: 400;
+    }
+
+    .description {
+      font-family: ' Roboto';
+      font-size: 18px;
+      line-height: 103%;
+      padding-bottom: 15px;
+      display: inline-block;
+      padding-right: 10px;
+      text-align: justify;
+      margin-top: -30px;
+      color: #292C32;
+    }
+  }
 }
 
 

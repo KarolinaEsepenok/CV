@@ -8,7 +8,7 @@ const DistantWork = () => {
 
             <div className={s.distanceWorkInfo}>
             <p className={s.distanceWorkMessage}>I'm looking at remote work options</p>
-            <button >Hire me</button></div>
+           </div>
         </div></AttentionSeeker>
     );
 };

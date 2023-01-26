@@ -19,8 +19,8 @@ const MyWorks = () => {
         <Title title={'My Works'}/>
             <AttentionSeeker effect={'pulse'} ><Reveal cascade duration={1300}  >
     <div className={s.myWorkItems}>
-        <MyWork style={todolist} title={'Todolist'} description={'It’s a list of tasks you need to complete or things that you want to do. Traditionally, they’re written on a piece of paper or post it notes and act as a memory aid. As technology has evolved we have been able to create a todo list apps. You can use a to do list in your home and personal life, or in the workplace.'}/>
-                <MyWork style={social} title={'Social network'} description={'Use a dedicated online platform to maintain contact, interact and collaborate with like-minded individuals and peers.'}/>
+        <MyWork href={''} style={todolist} title={'Todolist'} description={'It’s a list of tasks you need to complete or things that you want to do. Traditionally, they’re written on a piece of paper or post it notes and act as a memory aid. As technology has evolved we have been able to create a todo list apps. You can use a to do list in your home and personal life, or in the workplace.'}/>
+                <MyWork href={'https://karolinaesepenok.github.io/samuraiWay/'} style={social} title={'Social network'} description={'Use a dedicated online platform to maintain contact, interact and collaborate with like-minded individuals and peers.'}/>
             </div></Reveal></AttentionSeeker>
         </div>
     );
