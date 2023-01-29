@@ -34,7 +34,7 @@ const Contacts = () => {
         <div className={s.contact}>
             {modalSuccess && <div className={s.modal_success}>{'Your message has been successfully sent!'}</div>}
             {modalError && <div className={s.modal_error}>{'something went wrong. :(('}</div>}
-            <p>Contacts</p>
+            <p>Contacts </p>
             <form ref={form} onSubmit={sendEmail} className={s.formMain} >
                 <input type={'text'} className={s.formArea} placeholder={'name'}
                        />
