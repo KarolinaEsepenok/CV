@@ -43,8 +43,13 @@ const Contacts = () => {
         }, onSubmit: (values, {resetForm}) => {
             setIsloading(true)
 
-            axios.post("https:/back-portfolio-neon.vercel.app/", {
-                name: values.name, email: values.email, subject: values.subject, message: values.message
+
+            axios.get("https:/back-portfolio-neon.vercel.app/", {
+                // @ts-ignore
+                name: values.name,
+                email: values.email,
+                subject: values.subject,
+                message: values.message
             })
                 .then(() => {
                     alert("Your message has been sent! Thanks for your interest. I will definitely contact you when I have time.")
