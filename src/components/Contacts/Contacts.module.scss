@@ -30,8 +30,7 @@
     }
 
     .formArea,
-    .messageArea
-    {
+    .messageArea {
       font-size: 14px;
       border-radius: 5px;
       border: 1px solid #272b33;
@@ -41,32 +40,42 @@
       margin-bottom: 10px;
       padding-left: 5px;
 
-        &:focus{
-          border: 1px solid #292C32;
-        }
+      &:focus {
+        border: 1px solid #292C32;
+      }
     }
-    .messageArea{
+
+    .messageArea {
       height: 100px;
       font-family: "Roboto";
       padding-top: 8px;
+
+      &:-webkit-autofill {
+        border: 1px solid #292C32;
+        -webkit-text-fill-color: #292C32;
+        -webkit-box-shadow: 0 0 0 100px #292C32 inset;
+        transition: background-color 5000s ease-in-out 0s;
+      }
     }
-  }
-  .submitBtn {
-    padding: 10px 20px;
-    width: 125px;
-    font-size: 16px;
-    border: none;
-    font-family: Roboto;
-    transition: 0.7s;
-    &:hover {
-      background-color: #272b33;
+
+    .submitBtn {
+      padding: 10px 20px;
+      width: 125px;
+      font-size: 16px;
+      border: none;
+      font-family: Roboto;
+      transition: 0.7s;
+
+      &:hover {
+        background-color: #272b33;
+      }
+
+      @include button(#F4F3F0, $textColor, 5px);
+      @media screen and (max-width: 400px) {
+        padding: 5px 10px;
+      }
     }
-    @include button (#F4F3F0, $textColor, 5px);
-    @media screen and (max-width: 400px) {
-      padding: 5px 10px;
-    }
-  }
-}
+  }}
 
 /* &:-webkit-autofill{
         border: 1px solid #292C32;
