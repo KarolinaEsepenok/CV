@@ -43,7 +43,7 @@ const Contacts = () => {
         }, onSubmit: (values, {resetForm}) => {
             setIsloading(true)
 
-            axios.post("https:/back-portfolio-neon.vercel.app", {
+            axios.post("https:/back-portfolio-neon.vercel.app/", {
                 name: values.name, email: values.email, subject: values.subject, message: values.message
             })
                 .then(() => {
@@ -68,16 +68,17 @@ const Contacts = () => {
                        />
                 <input type={'email'}
                        className={s.formArea} placeholder={'Your Email'}
+                       disabled={isLoading}
 
                        {...formik.getFieldProps("email")}
                       />
-                <input type="text" placeholder="Your subject" disabled={isLoading}
+                <input type="text" disabled={isLoading} placeholder="Your subject"
                        className={s.formArea}
                         {...formik.getFieldProps("subject")}/>
-                <textarea className={s.messageArea} placeholder={'Your message'}
+                <textarea disabled={isLoading} className={s.messageArea} placeholder={'Your message'}
                       {...formik.getFieldProps("message")}
                       />
-                <button type={'submit'}className={s.submitBtn}>Send</button>
+                <button disabled={isLoading} type={'submit'}className={s.submitBtn}>Send</button>
             </form>
 
         </div>
