@@ -54,7 +54,7 @@ const Contacts = () => {
                        onChange={(e) => setRegex(e.currentTarget.value)}
                        className={s.formArea} placeholder={'E-mail'} name={'email'}
                       />
-                <textarea className={s.messageArea} placeholder={'Message'}
+                <input className={s.messageArea} placeholder={'Message'}
                       />
                 <button type={'submit'}className={s.submitBtn}>Send</button>
             </form>
