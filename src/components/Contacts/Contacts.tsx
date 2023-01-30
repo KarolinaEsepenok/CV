@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import s from './Contacts.module.scss'
 
 import axios from "axios";
@@ -36,7 +36,9 @@ const Contacts = () => {
         e.target.reset()
     };*/}
 
+
     const [isLoading, setIsloading] = useState(false)
+
 
     const formik = useFormik({
         initialValues: {
@@ -44,7 +46,7 @@ const Contacts = () => {
         }, onSubmit: (values, {resetForm}) => {
             setIsloading(true)
 
-            axios.post("https:/back-portfolio-neon.vercel.app/", {
+            axios.post("https:/back-portfolio-neon.vercel.app", {
                 name: values.name,
                 email: values.email,
                 subject: values.subject,
@@ -82,7 +84,7 @@ const Contacts = () => {
                 <textarea disabled={isLoading} className={s.messageArea} placeholder={'Your message'}
                       {...formik.getFieldProps("message")}
                       />
-                <button disabled={isLoading} type={'submit'}className={s.submitBtn}>Send</button>
+                <button disabled={isLoading} type={'submit'} className={s.submitBtn}>Send</button>
             </form>
 
         </div>
