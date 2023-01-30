@@ -1,6 +1,8 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useState} from 'react';
 import s from './Contacts.module.scss'
-import emailjs from '@emailjs/browser'
+
+import axios from "axios";
+import {useFormik} from "formik";
 
 const Contacts = () => {
     {/* const form = useRef<HTMLFormElement | null>(null)
@@ -15,9 +17,7 @@ const Contacts = () => {
             }
         }
         e.target.reset()
-    }*/}
-    const [modalSuccess, setModalSuccess] = useState(false);
-    const [modalError, setModalError] = useState(false);
+    }
     const [regex, setRegex] = useState('')
 
     const form: any = useRef();
@@ -28,33 +28,54 @@ const Contacts = () => {
         emailjs.sendForm('service_rfu75tm', 'template_trkuazi', form.current, 'fYLlGpL8DB4s59SmU')
             .then((result) => {
                 // alert(result.text);
-                setModalSuccess(true)
+
             }, (error) => {
                 // alert(error.text);
-                setModalError(true)
+
             });
         e.target.reset()
-    };
+    };*/}
+    const [isLoading, setIsloading] = useState(false)
 
-    setTimeout(() => {
-        setModalSuccess(false)
-        setModalError(false)
-    }, 4000);
+    const formik = useFormik({
+        initialValues: {
+            name: '', email: '', subject: '', message: ''
+        }, onSubmit: (values, {resetForm}) => {
+            setIsloading(true)
+
+            axios.post("https://back-portfolio-neon.vercel.app/", {
+                name: values.name, email: values.email, subject: values.subject, message: values.message
+            })
+                .then(() => {
+                    alert("Your message has been sent! Thanks for your interest. I will definitely contact you when I have time.")
+                    resetForm()
+                })
+                .catch(() => {
+                    alert("Something went wrong... Your message hasn't been sent! Please try again.")
+                })
+                .finally(() => {
+                    setIsloading(false)
+                })
+        },
+    });
 
     return (
         <div className={s.contact}>
             <p>Contacts</p>
-            {modalSuccess && <div className={s.modal_success}>{'Your message has been successfully sent!'}</div>}
-            {modalError && <div className={s.modal_error}>{'something went wrong. :(('}</div>}
-
-            <form ref={form} onSubmit={sendEmail} className={s.formMain} >
-                <input type={'text'} className={s.formArea} placeholder={'name'} name={'name'}
+            <form onSubmit={formik.handleSubmit} className={s.formMain} >
+                <input type={'text'} className={s.formArea} placeholder={'Your name'}
+                       {...formik.getFieldProps("name")}
                        />
-                <input type={'email'} value={regex}
-                       onChange={(e) => setRegex(e.currentTarget.value)}
-                       className={s.formArea} placeholder={'E-mail'} name={'email'}
+                <input type={'email'}
+                       className={s.formArea} placeholder={'Your Email'}
+
+                       {...formik.getFieldProps("email")}
                       />
-                <input className={s.messageArea} placeholder={'Message'}
+                <input type="text" placeholder="Your subject" disabled={isLoading}
+                       className={s.formArea}
+                        {...formik.getFieldProps("subject")}/>
+                <textarea className={s.messageArea} placeholder={'Your message'}
+                      {...formik.getFieldProps("message")}
                       />
                 <button type={'submit'}className={s.submitBtn}>Send</button>
             </form>
