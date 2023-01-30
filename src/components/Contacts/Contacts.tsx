@@ -46,7 +46,8 @@ const Contacts = () => {
         }, onSubmit: (values, {resetForm}) => {
             setIsloading(true)
 
-            axios.post("https:/back-portfolio-neon.vercel.app", {
+
+            axios.post("https://back-portfolio-neon.vercel.app/", {
                 name: values.name,
                 email: values.email,
                 subject: values.subject,
