@@ -50,10 +50,10 @@
       font-family: "Roboto";
       padding-top: 8px;
 
-      &:-webkit-autofill {
+      &:-webkit-autofill:focus {
         border: 1px solid #292C32;
         -webkit-text-fill-color: #292C32;
-        -webkit-box-shadow: 0 0 0 100px #292C32 inset;
+        -webkit-box-shadow: 0 0 0 100px #FFFFFF inset;
         transition: background-color 5000s ease-in-out 0s;
       }
     }

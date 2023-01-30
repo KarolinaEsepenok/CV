@@ -69,11 +69,11 @@ const Contacts = () => {
     return (
         <div className={s.contact}>
             <p>Contacts</p>
-            <form onSubmit={formik.handleSubmit} className={s.formMain} >
+            <form autoComplete={'off'} onSubmit={formik.handleSubmit} className={s.formMain} >
                 <input type={'text'} className={s.formArea} placeholder={'Your name'}
                        {...formik.getFieldProps("name")}
                        />
-                <input type={'email'}
+                <input  type={'email'}
                        className={s.formArea} placeholder={'Your Email'}
                        disabled={isLoading}
 
