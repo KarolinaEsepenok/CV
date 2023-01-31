@@ -1,27 +1,31 @@
 import React from 'react';
-import ava from '../assets/img/ava.jpg'
 import MyWork from './components/MyWork';
 import s from './MyWorks.module.scss';
-import line from '../assets/img/line.png';
 import todoImage from '../assets/img/tdlist.jpg'
 import socialImage from '../assets/img/soc.jpg'
+import cardsImg from '../assets/img/cards.jpg'
 import Title from "../common/components/title/Title";
-import Fade, {AttentionSeeker, Reveal} from "react-awesome-reveal";
+import {AttentionSeeker, Reveal} from "react-awesome-reveal";
 
 const MyWorks = () => {
+    const cards = {
+    backgroundImg: `url(${cardsImg})`
+}
     const social = {
         backgroundImg: `url(${socialImage})`
     }
     const todolist = {
         backgroundImg: `url(${todoImage})`
     }
+
     return (
         <div id={'myWorks'} className={s.myWorksPage}>
             <Title title={'My Works'}/>
             <AttentionSeeker effect={'pulse'}><Reveal cascade duration={1300}>
-                <div className={s.myWorkItems}> <MyWork href={'https://karolinaesepenok.github.io/cards/'} style={social}
-                                                        title={'Cards'}
-                                                        description={'Flashcards are a great tool when you want to memorize a new topic or learn a new language. Stack technologies: React (Functional Components), Redux, TypeScript, JS, Axios, Formik, React-Router-dom (V6), Thunk-Redux, Font Awesome icons.'}/>
+                <div className={s.myWorkItems}>
+                    <MyWork href={'https://karolinaesepenok.github.io/cards/'} style={cards}
+                                                       title={'Cards'}
+                                                       description={'Flashcards are a great tool when you want to memorize a new topic or learn a new language. Stack technologies: React (Functional Components), Redux-Tookit, TypeScript, JS, Axios, Formik, React-Router-dom (V6).'}/>
                     <MyWork href={'https://karolinaesepenok.github.io/todolist/'} style={todolist} title={'Todolist'}
                             description={'It’s a list of tasks you need to complete or things that you want to do. Traditionally, they’re written on a piece of paper or post it notes and act as a memory aid. As technology has evolved we have been able to create a todo list apps. You can use a to do list in your home and personal life, or in the workplace.'}/>
                     <MyWork href={'https://karolinaesepenok.github.io/samuraiWay/'} style={social}

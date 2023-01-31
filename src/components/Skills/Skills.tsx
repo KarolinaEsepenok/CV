@@ -14,6 +14,9 @@ import sass from '../assets/img/sass.svg'
 import restAPI from '../assets/img/restAPI.svg'
 import materialUi from '../assets/img/materiaUi.svg'
 import heroku from '../assets/img/heroku.svg'
+import vercel from '../assets/img/vercel.svg'
+import postman from '../assets/img/postman.svg'
+import github from '../assets/img/github.svg'
 import Title from "../common/components/title/Title";
 
 const Skills = () => {
@@ -21,17 +24,25 @@ const Skills = () => {
         <div id='skills' className={s.skillsPage}>
            <Title title={'My skills'}/>
             <div className={s.skills}>
-                <Skill nameSkill={'React'}  img={logoReact}/>
+                <Skill nameSkill={'JavaScript'} img={js}/>
                 <Skill nameSkill={'TypeScript'}  img={ts}/>
+                <Skill nameSkill={'React'}  img={logoReact}/>
+                <Skill nameSkill={'Redux'}  img={reduxLogo}/>
                 <Skill nameSkill={'HTML'}  img={html}/>
                 <Skill nameSkill={'CSS'}  img={css}/>
                 <Skill nameSkill={'SASS/SCSS'}  img={sass}/>
-                <Skill nameSkill={'StoryBook'} img={storyBook}/>
-                <Skill nameSkill={'JavaScript'} img={js}/>
-                <Skill nameSkill={'Redux'}  img={reduxLogo}/>
+                <Skill nameSkill={'Material UI'} img={materialUi}/>
                 <Skill nameSkill={'Rest API'}img={restAPI}/>
-<Skill nameSkill={'Material UI'} img={materialUi}/>
+                <Skill nameSkill={'Postman'} img={postman}/>
+                <Skill nameSkill={'StoryBook'} img={storyBook}/>
+                <Skill nameSkill={'Github'} img={github}/>
+                <Skill nameSkill={'Vercel'} img={vercel}/>
                 <Skill nameSkill={'Heroku'} img={heroku}/>
+
+
+
+
+
             </div>
         </div>
 

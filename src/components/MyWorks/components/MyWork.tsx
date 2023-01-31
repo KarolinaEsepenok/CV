@@ -11,8 +11,8 @@ export type MyWorkPropsTYpe = {
 const MyWork = (props: MyWorkPropsTYpe) => {
     return (
         <div className={s.myWorkItem}>
-            <div style={{backgroundImage: props.style.backgroundImg}} className={s.myWorkItemImg}>
-                <a className={s.myWorkBtn} href={props.href}>See</a>
+            <div className={s.myWorkItemImg} style={{backgroundImage: props.style.backgroundImg}} >
+                <a className={s.myWorkBtn} href={props.href} target={'_blank'}>See</a>
             </div>
             <div className={s.myWorkNameDesrc}>
                 <h6 className={s.myWorkName}>{props.title}</h6>
