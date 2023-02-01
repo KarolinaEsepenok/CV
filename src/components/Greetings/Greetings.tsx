@@ -4,12 +4,6 @@ import s from './Greetings.module.css'
 import 'animate.css'
 import {ParticlesContainer} from "../Particle/Particles";
 import Fade, {AttentionSeeker, Bounce, Zoom} from "react-awesome-reveal";
-import Tilt from 'react-parallax-tilt';
-import ReactTypingEffect from "react-typing-effect";
-import Typewriter from "react-ts-typewriter";
-
-
-
 
 const Greetings = () => {
 
