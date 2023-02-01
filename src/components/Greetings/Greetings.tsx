@@ -20,8 +20,11 @@ const Greetings = () => {
             <AttentionSeeker  effect={'swing'}><Fade className={s.greetingsAnimate}>
                 <h2 className={'animate__lightSpeedInRight'}>Hi!<br/>I'm Karolina.<br/> I'm a Front-end developer.<br/></h2>
             </Fade></AttentionSeeker>
-                <AttentionSeeker effect={'headShake'}><Bounce><p className={s.descrAboutMe}>I'm proactive, responsible and highly-motivated front-end developer with a strong analytical mind.
-                    I'm improving my skills in React development and expanding them with new technologies. In free timeБ I solve Codewars tasks and improve my English (currently A2).
+                <AttentionSeeker effect={'headShake'}><Bounce><p className={s.descrAboutMe}>I'm a communicative, proactive and purposeful front-end
+                    developer with an analytical mind. I have experience
+                    working on a project in a team. I'm constantly learning
+                    new technologies. Now, I'm studying RTK Query and
+                    improving my English level.
                 </p></Bounce></AttentionSeeker>
    </div>
           <img src={avatar} alt={'Avatar'} title={'Karolina Esepenok'}/>
