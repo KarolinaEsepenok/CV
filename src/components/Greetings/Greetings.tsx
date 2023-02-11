@@ -14,11 +14,12 @@ const Greetings = () => {
             <AttentionSeeker  effect={'swing'}><Fade className={s.greetingsAnimate}>
                 <h2 className={'animate__lightSpeedInRight'}>Hi!<br/>I'm Karolina.<br/> I'm a Front-end developer.<br/></h2>
             </Fade></AttentionSeeker>
-                <AttentionSeeker effect={'headShake'}><Bounce><p className={s.descrAboutMe}>I'm a communicative, proactive and purposeful front-end
-                    developer with an analytical mind. I have experience
-                    working on a project in a team. I'm constantly learning
-                    new technologies. Now, I'm studying RTK Query and
-                    improving my English level.
+                <AttentionSeeker effect={'headShake'}><Bounce><p className={s.descrAboutMe}>I'm driven, efficient, forward-thinking and full of vim and
+                    vigor front-end developer with an analytical mind. I'm
+                    team player. I'm improving my hard and soft skills and
+                    English. I'm learning RTK Query and Node.js now.
+                    Open to your suggestions
+
                 </p></Bounce></AttentionSeeker>
    </div>
           <img src={avatar} alt={'Avatar'} title={'Karolina Esepenok'}/>
