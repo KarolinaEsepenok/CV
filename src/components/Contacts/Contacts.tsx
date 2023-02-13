@@ -4,7 +4,13 @@ import s from './Contacts.module.scss'
 import axios from "axios";
 import {useFormik} from "formik";
 
-const Contacts = () => {
+
+interface FormikErrorType {
+    email?: string
+
+}
+const Contacts = (className:any,
+                  disabled:any,) => {
     {/* const form = useRef<HTMLFormElement | null>(null)
 
     const sendEmail = (e:any) => {
@@ -38,12 +44,36 @@ const Contacts = () => {
 
 
     const [isLoading, setIsloading] = useState(false)
-
+    const finalClassName = s.submitBtn
+        + (disabled ? ' ' + s.disabled : '')
+        + (className ? ' ' + className : '')
 
     const formik = useFormik({
         initialValues: {
             name: '', email: '', subject: '', message: ''
-        }, onSubmit: (values, {resetForm}) => {
+        },
+        validate: values => {
+            const errors: FormikErrorType = {}
+
+            if (!values.email) {
+                errors.email = 'Email is required'
+            } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
+                errors.email = 'Invalid email address'
+            }
+            if (!values.name) {
+                return {
+                    name: 'Please, enter your name'
+                }
+            }
+            if (!values.message) {
+                return {
+                    message: 'Please, enter your message'
+                }
+            }
+
+
+            return errors
+        },onSubmit: (values, {resetForm}) => {
             setIsloading(true)
 
 
@@ -66,26 +96,28 @@ const Contacts = () => {
         },
     });
 
+
     return (
         <div className={s.contact}>
             <p>Contacts</p>
             <form autoComplete={'off'} onSubmit={formik.handleSubmit} className={s.formMain} >
                 <input type={'text'} className={s.formArea} placeholder={'Your name'}
                        {...formik.getFieldProps("name")}
-                       />
+                       />{formik.errors.name ? <div className={s.formError}>{formik.errors.name}</div> : null}
                 <input  type={'email'}
                        className={s.formArea} placeholder={'Your Email'}
                        disabled={isLoading}
-
                        {...formik.getFieldProps("email")}
-                      />
+                      /> {formik.errors.email ? <div className={s.formError}>{formik.errors.email}</div> : null}
                 <input type="text" disabled={isLoading} placeholder="Your subject"
                        className={s.formArea}
                         {...formik.getFieldProps("subject")}/>
                 <textarea disabled={isLoading} className={s.messageArea} placeholder={'Your message'}
                       {...formik.getFieldProps("message")}
-                      />
-                <button disabled={isLoading} type={'submit'} className={s.submitBtn}>Send</button>
+                />{formik.errors.message ? <div className={s.formError}><p className={s.error}>{formik.errors.message}</p></div> : null}
+                <button disabled={
+                    !!formik.errors.email || !!formik.errors.name || !formik.values.message
+                }type={'submit'} className={finalClassName}>Send</button>
             </form>
 
         </div>
