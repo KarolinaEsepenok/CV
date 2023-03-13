@@ -31,8 +31,6 @@ const MyWorks = () => {
                             title={'Social network'}
                             description={'Use a dedicated online platform to maintain contact, interact and collaborate with like-minded individuals and peers.'}/>
                     <MyWork title={'Landing page'} description={'This is a landing page for women\'s clothing.'} style={selling} href={'https://karolinaesepenok.github.io/projectThird/'}/>
-                    <MyWork href={'https://karolinaesepenok.github.io/todolist/'} style={todolist} title={'Todolist'}
-                            description={'It’s a list of tasks you need to complete or things that you want to do. Traditionally, they’re written on a piece of paper or post it notes and act as a memory aid. As technology has evolved we have been able to create a todo list apps. You can use a to do list in your home and personal life, or in the workplace.'}/>
                     <MyWork href={'https://karolinaesepenok.github.io/cards/'} style={cards}
                                                        title={'Cards'}
                                                        description={'Flashcards are a great tool when you want to memorize a new topic or learn a new language. Stack technologies: React (Functional Components), Redux-Tookit, TypeScript, JS, Axios, Formik, React-Router-dom (V6).'}/>
